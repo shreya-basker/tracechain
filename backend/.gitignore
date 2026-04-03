@@ -1,0 +1,34 @@
+# --- Presentation Tier (React/Vite) ---
+**/node_modules/
+**/dist/
+**/.env
+**/.env.local
+frontend/npm-debug.log*
+
+# --- Logic Tier (Java/Spark) ---
+# Ignore compiled classes and JARs
+**/*.class
+**/*.jar
+**/*.war
+
+# If using Maven or Gradle
+**/target/
+**/.gradle/
+**/build/
+
+# IDE specific files
+**/.settings/
+**/.classpath
+**/.project
+**/.idea/
+**/*.iml
+**/.vscode/
+
+# --- Data Tier & System ---
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore any local SQL dumps
+*.sql.gz
+*.backup
